@@ -1,0 +1,12 @@
+{
+    "name": "lolfans/finance-sdk",
+    "authors": [
+        {
+            "name": "liuda",
+            "email": "313273766@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"FinanceSdk\\": "FinanceSdk/"}
+    }
+}
