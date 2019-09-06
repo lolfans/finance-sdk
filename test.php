@@ -10,8 +10,8 @@ use FinanceSdk\FinanceCommonClient;
 
 $financeCommonClient = new FinanceCommonClient();
 $host       = 'http://113.204.6.164:9103';                                  //接口地址
-$path       = '/dataPlatform/sensetime/idcardOcr';                          //接口路径 换成自己的具体的路径
-$code       = '1005001001';                                                 //接口编号  换成自己的具体的接口编号
+$path       = '/dataPlatform/sensetime/idcardOcrByForm';                          //接口路径 换成自己的具体的路径
+$code       = '1005001005';                                                 //接口编号  换成自己的具体的接口编号
 $method     = 'POST';                                                       //请求方法
 $appKey     = '6aaedrtyt233321f159d8021178c10abc8';                         //配置的key
 $appSecret  = '6b3c555fff5cc4bd62fdd632a029dc5';                        //配置的秘钥
