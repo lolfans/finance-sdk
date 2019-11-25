@@ -7,7 +7,7 @@ php项目 如果没有 composer管理包文件， 想要使用 composer require 
 
 2，再执行composer require lolfans/finance-sdk 命令
 
-3，再在需要使用该SDK的页面引用 require dirname(__FILE__)."/vendor/autoload.php"；
+3，再在需要使用该SDK的页面引用 require 相对路径."/vendor/autoload.php"；
 
 4，并且 use FinanceSdk\FinanceCommonClient;
 
