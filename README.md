@@ -9,5 +9,5 @@ php项目 如果没有 composer管理包文件， 想要使用 composer require 
 
 3，再在需要使用该SDK的页面引用 require dirname(__FILE__)."/vendor/autoload.php"；
 
-4，use FinanceSdk\FinanceCommonClient;
+4，并且 use FinanceSdk\FinanceCommonClient;
 
